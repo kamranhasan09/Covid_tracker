@@ -1,0 +1,32 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.upper{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    align-content: center;
+}
+.card_size{
+    height: 200px;
+    color: white;
+   
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 13.36px 8.896px #2c482e;
+    padding: 10px;
+}
+h1{
+    font-size: 3rem;
+}
+.card-min{
+    flex-wrap: wrap; 
+}
